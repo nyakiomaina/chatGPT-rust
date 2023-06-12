@@ -37,7 +37,7 @@ First, create a .env file in the root of your project and add the following line
 OAI_TOKEN=<Your OpenAI API Key>
 ```
 
-Remember to replace <Your OpenAI API Key> with your actual OpenAI API key.
+Remember to replace ```<Your OpenAI API Key>``` with your actual OpenAI API key.
 
 Then, you can run the program with the following command:
 
