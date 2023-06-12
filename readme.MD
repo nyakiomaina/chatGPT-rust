@@ -1,6 +1,14 @@
 # OpenAI SQL Code Generator in Rust
-Simple Rust program that uses the OpenAI API to generate SQL code based on user input.
+Simple Rust program that uses the OpenAI API to generate SQL code based on user input. For example, the user might enter something like:
 
+```bash
+Find all employees with a salary greater than 50000
+```
+The OpenAI API would then take this input and attempt to generate the corresponding SQL code, which might look something like:
+
+```bash
+SELECT * FROM employees WHERE salary > 50000;
+```
 ## About
 This application takes user input from the console, which should be a natural language statement, and sends it to the OpenAI API, which generates a corresponding SQL query based on the input. It uses the "text-davinci-001" engine for text generation.
 
