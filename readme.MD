@@ -12,9 +12,9 @@ OpenAI account and API key
 hyper, hyper-tls, dotenv, serde, serde_derive, spinners crates
 
 ## Installation
-Before you can run this program, you need to have Rust installed on your machine. If you don't have Rust installed, follow the instructions [here] https://www.rust-lang.org/tools/install to install it.
+Before you can run this program, you need to have Rust installed on your machine. If you don't have Rust installed, follow the instructions [here] (https://www.rust-lang.org/tools/install) to install it.
 
-You also need an API key from OpenAI. If you don't have one, you can create an account on the [OpenAIwebsite] https://openai.com/ , then follow the instructions to get an API key.
+You also need an API key from OpenAI. If you don't have one, you can create an account on the [OpenAIwebsite] (https://openai.com/) , then follow the instructions to get an API key.
 
 Add the following to your Cargo.toml file:
 
